@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -12,7 +13,11 @@ function App() {
           alt="logo"
         />
       </header>
-      Dictionary
+      <main>
+        <Dictionary />
+      </main>
+
+      <footer className="text-center">coded by Edeltraud Kohl</footer>
     </div>
   );
 }
