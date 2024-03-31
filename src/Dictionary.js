@@ -10,7 +10,8 @@ export default function Dictionary() {
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
-    alert("Searching for ${keyword} definition");
+
+    console.log(keyword);
   }
 
   return (
