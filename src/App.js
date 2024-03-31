@@ -8,7 +8,10 @@ function App() {
         <Dictionary />
       </main>
 
-      <footer className="text-center">coded by Edeltraud Kohl</footer>
+      <footer className="text-center">
+        coded by Edeltraud Kohl, open sourced on{" "}
+        <a href="https://github.com/ed-kohl/dictionary"> Github</a>
+      </footer>
     </div>
   );
 }
