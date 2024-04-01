@@ -1,8 +1,97 @@
+h1{
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+color:darkslategrey;
+font-style:oblique;
+font-weight:bolder;
+margin-bottom:50px;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:coral;
+    text-align:center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color:white;
+    padding:2px 2px 2px 2px;
+    margin:0 auto;
+    margin-top:10px;
+    max-width:768px;
+
+
+}
+form input {
+    padding:5px 5px 5px 5px;
+    color:darkslategrey;
+}
+
+form button {
+    margin-left:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    background-color:darkslategray;
+    padding:5px 5px 5px 5px;
+}
+.category{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:darkslategray
+}
 .Dictionary{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: left;
     margin-top: 20px;
-    background-color:lightgreen;
+    background-color:white;
+    border: 1px solid coral;
+    margin:0 auto;
+    margin-top:10px;
+    max-width:768px;
+    padding:25px 25px 25px 25px;
+}
+
+.definition{
+    display: flex;
+    flex-direction: column;
+    margin:10px 10px 10px 10px;
+}
+
+.majordef{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-style:italic;;
+    color:darkslategray
+}
+.definition >div {
+    flex: 1 0 50%;
+    /* This will make each child take up 50% of the width, creating two columns */
+    box-sizing: border-box;
+    /* This ensures padding and border are included in the element's total width */
+    padding: 10px;
+    /* Optional: add some padding between the columns */
+    border:1px solid darkslategray;
+    margin-top:50px;
+}
+
+.results{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.results > p {
+   flex: 1 0 50%; 
+   box-sizing: border-box;
+   padding:0;
+   justify-content:flex-start;
 }
